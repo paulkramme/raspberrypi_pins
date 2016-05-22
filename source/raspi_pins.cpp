@@ -44,7 +44,7 @@ int main()
      delay(standart_delay);
      digitalWrite(PIN4, LOW);
 
-     std::cout << "FINISHED."
+     std::cout << "FINISHED." << std::endl;
      delay("1000");
      return 0;
 }
