@@ -1,7 +1,7 @@
 #include<iostream>
 //wiringPi Library can be optained from wiringpi.com
 //PROGRAM HAS TO BE COMPILED WITH -lwiringPi FLAG!
-#include<wiringPi>
+#include<wiringPi.h>
 
 //Pin definitions. Not nessesary, but good to have.
 #define PIN1 26
