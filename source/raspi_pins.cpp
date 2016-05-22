@@ -29,17 +29,22 @@ int main()
      delay(standart_delay);
      digitalWrite(PIN1, LOW);
 
+     std::cout << "TESTING PIN2" << std::endl;
      digitalWrite(PIN2, HIGH);
      delay(standart_delay);
      digitalWrite(PIN2, LOW);
 
+     std::cout << "TESTING PIN3" << std::endl;
      digitalWrite(PIN3, HIGH);
      delay(standart_delay);
      digitalWrite(PIN3, LOW);
 
+     std::cout << "TESTING PIN4" << std::endl;
      digitalWrite(PIN4, HIGH);
      delay(standart_delay);
      digitalWrite(PIN4, LOW);
 
+     std::cout << "FINISHED."
+     delay("1000");
      return 0;
 }
