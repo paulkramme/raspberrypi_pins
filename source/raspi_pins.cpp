@@ -4,10 +4,11 @@
 #include<wiringPi.h>
 
 //Pin definitions. Not nessesary, but good to have.
-#define PIN1 26
-#define PIN2 23
-#define PIN3 2
-#define PIN4 1
+//WARNING! USES wiringPi PIN NUMBERS!
+#define PIN1 1
+#define PIN2 2
+#define PIN3 3
+#define PIN4 4
 
 //Delay definition in Milliseconds. Not nessesary, but good to have.
 #define standart_delay 2000
